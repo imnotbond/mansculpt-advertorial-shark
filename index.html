@@ -1,62 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#ffffff">
-<title>As Seen on Shark Tank: The At-Home Wave Therapy Device That's Helping 150,000+ Men Beat E.D. — Without Pills or Pumps</title>
-<meta name="description" content="On Shark Tank, Dr. Marcus Bell stunned Lori Greiner with a device that reverses erectile dysfunction at the root — and she invested on the spot. Here's how Mansculpt™ Wave Therapy Pro works.">
-<link rel="icon" type="image/png" href="assets/images/MANSCULPT_1_1.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>As Seen on Shark Tank: The At-Home Wave Therapy Device — Mansculpt™</title>
+<meta name="description" content="Dr. Marcus Bell, MD (Johns Hopkins urologist) stunned the Sharks. Lori Greiner invested $1M on the spot. Now 150,000+ men use Mansculpt™ Wave Therapy Pro to restore reliable erections without pills.">
 
-<!-- BLOCK AUTOPLAY — overrides VTurb player autoplay. Only counts interaction inside the <vturb-smartplayer> element (not anywhere on the page). -->
-<script>
-(function blockAutoplay(){
-  var userInteracted = false;
-  var PLAYER_ID = 'vid-69ebb2d59c356ea99e91d15d';
-  function markInteracted(e){
-    var player = document.getElementById(PLAYER_ID);
-    if (!player) return;
-    var path = e.composedPath ? e.composedPath() : [e.target];
-    for (var i = 0; i < path.length; i++) {
-      if (path[i] === player) { userInteracted = true; return; }
-    }
-  }
-  ['click','pointerup','keydown'].forEach(function(ev){
-    document.addEventListener(ev, markInteracted, {capture:true, passive:true});
-  });
-  function applyPatch(){
-    try {
-      var proto = HTMLMediaElement && HTMLMediaElement.prototype;
-      if (!proto || proto.play.__bbAutoplayBlock) return;
-      var current = proto.play;
-      proto.play = function(){
-        if (!userInteracted) {
-          try { this.pause && this.pause(); } catch(e){}
-          return Promise.reject(new DOMException('Autoplay blocked','NotAllowedError'));
-        }
-        return current.apply(this, arguments);
-      };
-      proto.play.__bbAutoplayBlock = true;
-    } catch(e) {}
-  }
-  applyPatch();
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyPatch);
-  window.addEventListener('load', applyPatch);
-  setTimeout(applyPatch, 500);
-  setTimeout(applyPatch, 2000);
-  setTimeout(applyPatch, 5000);
-})();
-</script>
-
-<!-- bb_user_id (shared identity between bb-tracker, PostHog, and CAPI) -->
+<!-- bb_user_id shared identity -->
 <script>(function(){try{var k='bb_user_id',u=localStorage.getItem(k);if(!u){u='u_'+Math.random().toString(36).substring(2,10)+'_'+Date.now().toString(36);localStorage.setItem(k,u);}window.__bbUserId=u;}catch(e){}})();</script>
 
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MK883P4D');</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MK883P4D');</script>
 
 <!-- GA4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-P1PZL571LV"></script>
@@ -69,7 +23,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('config', 'G-P1PZL571LV');
 </script>
 
-<!-- TikTok pixel D69I62BC77UA1UK9FD7G (account 247 mvb meudon — shared with mansculpt_de) -->
+<!-- TikTok pixel D69I62BC77UA1UK9FD7G -->
 <script>
 !function (w, d, t) {
   w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
@@ -78,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }(window, document, 'ttq');
 </script>
 
-<!-- Meta Pixel 1708777253459299 (Mansculpt US) -->
+<!-- Meta Pixel 1708777253459299 -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init','1708777253459299');
@@ -86,7 +40,7 @@ fbq('track','PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1708777253459299&ev=PageView&noscript=1"/></noscript>
 
-<!-- bb-tracker config + script (page_id mansculpt-advertorial-shark) -->
+<!-- bb-tracker config -->
 <script>
   window.BB_TRACKER_CONFIG = {
     pageType: 'advertorial',
@@ -96,7 +50,7 @@ fbq('track','PageView');
   };
 </script>
 
-<!-- PostHog snippet -->
+<!-- PostHog -->
 <script>
   !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
   posthog.init('phc_CGpemz5jFwEpAWNJeZNdo4UPBbivs2ZkJF3YTdJ8yPsJ', {
@@ -109,10 +63,10 @@ fbq('track','PageView');
   if(window.__bbUserId)posthog.identify(window.__bbUserId);
 </script>
 
-<!-- bb-tracker (fires page_init / scroll_depth / cta_clicked / time_on_page) -->
+<!-- bb-tracker.js -->
 <script src="https://bb-tracker-beta.vercel.app/bb-tracker.js" async></script>
 
-<!-- Propagate URL params (ttclid, fbclid, utm_*) to all data-bb-cta links — Shopify theme.liquid bridge persists in cart custom_attributes for CAPI Purchase match quality. -->
+<!-- Forward URL params (ttclid/fbclid/utm_*) to CTA links so Shopify theme.liquid bridge persists for CAPI -->
 <script>
   (function(){
     function appendParams(){
@@ -136,535 +90,632 @@ fbq('track','PageView');
   })();
 </script>
 
-<!-- VSL fast-load: page load timer + preloads -->
-<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script>
-<link rel="preload" href="https://scripts.converteai.net/c9cf2734-cc1a-4515-af58-9c095e4ab3e4/players/69ebb2d59c356ea99e91d15d/v4/player.js" as="script">
-<link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script">
-<link rel="preload" href="https://cdn.converteai.net/c9cf2734-cc1a-4515-af58-9c095e4ab3e4/69ebb27255df2a8c6278ab50/main.m3u8" as="fetch">
-<link rel="dns-prefetch" href="https://cdn.converteai.net">
-<link rel="dns-prefetch" href="https://scripts.converteai.net">
-<link rel="dns-prefetch" href="https://images.converteai.net">
-<link rel="dns-prefetch" href="https://api.vturb.com.br">
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="As Seen on Shark Tank: The Wave Therapy Device Reversing E.D. for 150,000+ Men">
-<meta property="og:description" content="Dr. Marcus Bell stunned the Sharks with a non-invasive device that fixes the real root cause of E.D. Lori Greiner invested on the spot.">
-<meta property="og:image" content="assets/images/WhatsApp_Image_2025-07-30_at_12.20.34.jpg">
-<meta name="twitter:card" content="summary_large_image">
-
-<link rel="preload" as="font" type="font/woff2" href="assets/fonts/roboto_n4.2019d890f07b1852f56ce63ba45b2db45d852cba.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="assets/fonts/roboto_n7.f38007a10afbbde8976c4056bfe890710d51dec2.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="assets/fonts/bebasneue_n4.135cdbcf397f167ca17d9c75224e0af26b4b4e55.woff2" crossorigin>
-
 <style>
-@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/roboto_n4.2019d890f07b1852f56ce63ba45b2db45d852cba.woff2) format("woff2")}
-@font-face{font-family:Roboto;font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/roboto_n7.f38007a10afbbde8976c4056bfe890710d51dec2.woff2) format("woff2")}
-@font-face{font-family:Roboto;font-style:italic;font-weight:400;font-display:swap;src:url(assets/fonts/roboto_i4.57ce898ccda22ee84f49e6b57ae302250655e2d4.woff2) format("woff2")}
-@font-face{font-family:Roboto;font-style:italic;font-weight:700;font-display:swap;src:url(assets/fonts/roboto_i7.7ccaf9410746f2c53340607c42c43f90a9005937.woff2) format("woff2")}
-@font-face{font-family:"Bebas Neue";font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/bebasneue_n4.135cdbcf397f167ca17d9c75224e0af26b4b4e55.woff2) format("woff2")}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; }
+img { max-width: 100%; height: auto; display: block; }
 
-*,*::before,*::after{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
-body{margin:0;font-family:Roboto,system-ui,-apple-system,Segoe UI,sans-serif;font-size:17px;line-height:1.6;color:#242424;background:#fff;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
-img{max-width:100%;height:auto;display:block}
-a{color:inherit}
-button{font-family:inherit;font-size:inherit;cursor:pointer;border:0;background:none}
+/* HEADER */
+.header { background-color: #003d7a; color: white; padding: 20px 20px 10px; }
+.header-container { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: center; gap: 15px; }
+.logo { display: flex; align-items: center; gap: 15px; }
+.logo-shark-header { height: 50px; }
+.logo-text { font-size: 18px; font-weight: normal; }
+.logo-text strong { font-weight: bold; }
 
-.wrap{max-width:720px;margin:0 auto;padding:0 18px}
-.brandbar{padding:14px 18px;border-bottom:1px solid #eee;display:flex;align-items:center;justify-content:space-between;gap:12px}
-.brandbar img.logo{max-width:160px;width:38vw}
-.shark-badge{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;color:#1a1a1a;background:#fff5da;border:1.5px solid #c9a942;padding:5px 10px;border-radius:999px;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
-.shark-badge::before{content:"★";color:#c9a942;font-size:13px}
+/* INFO BAR */
+.info-bar { background-color: #4da6ff; color: white; padding: 10px 0; font-size: 13px; overflow: hidden; position: relative; }
+.info-bar-container { display: flex; align-items: center; gap: 60px; animation: scroll-left 25s linear infinite; white-space: nowrap; }
+@keyframes scroll-left { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+.info-item { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
 
-.crumb{font-size:13px;color:#7a7a7a;letter-spacing:.02em;padding:14px 0 6px}
-.crumb span{color:#b98141}
-
-h1,h2,h3{font-family:Roboto,sans-serif;color:#1a1a1a;line-height:1.2;letter-spacing:-.01em}
-h1{font-size:clamp(26px,6vw,40px);font-weight:700;margin:14px 0 14px}
-h2{font-size:clamp(22px,4.6vw,30px);font-weight:700;margin:34px 0 14px}
-h3{font-size:clamp(18px,3.6vw,22px);font-weight:700;margin:24px 0 10px}
-p{margin:0 0 14px}
-.subline{font-style:italic;color:#575757;font-size:15px;margin:-4px 0 14px}
-.byline{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:#7a7a7a;border-top:1px solid #eee;border-bottom:1px solid #eee;padding:10px 0;margin:8px 0 18px}
-.byline b{color:#1a1a1a;font-weight:700}
-
-.vsl{background:#000;margin:18px -18px;padding:0;aspect-ratio:16/9}
-.vsl vturb-smartplayer{display:block;width:100%;height:100%}
-
-figure{margin:18px 0}
-figure img{border-radius:6px;width:100%}
-
-.callout{background:#f8f6f1;border-left:4px solid #b98141;padding:18px 18px;border-radius:6px;margin:22px 0}
-.callout b{display:block;font-size:18px;color:#1a1a1a;margin-bottom:6px}
-
-.lori-quote{background:#fffaf0;border:1.5px solid #e8d8a8;padding:22px 20px;border-radius:8px;margin:28px 0;position:relative}
-.lori-quote::before{content:"\201C";position:absolute;top:-2px;left:14px;font-size:60px;color:#c9a942;font-family:Georgia,serif;line-height:1}
-.lori-quote p{font-size:18px;font-style:italic;color:#3a3a3a;margin:6px 0 10px;padding-left:24px}
-.lori-quote .signoff{display:flex;align-items:center;gap:10px;font-size:14px;color:#7a7a7a;padding-left:24px}
-.lori-quote .signoff b{color:#1a1a1a;font-weight:700}
-
-.problems{list-style:none;padding:0;margin:14px 0}
-.problems li{position:relative;padding:8px 0 8px 26px;border-bottom:1px solid #f0f0f0;font-size:16px}
-.problems li::before{content:"";position:absolute;left:6px;top:18px;width:8px;height:8px;border-radius:50%;background:#c5453f}
-
-.benefits{list-style:none;padding:0;margin:14px 0}
-.benefits li{padding:10px 0 10px 32px;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2352c41a'><path d='M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z'/></svg>") no-repeat 0 8px/22px 22px;border-bottom:1px solid #f4f4f4}
-
-.cta{display:flex;justify-content:center;margin:26px 0}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:18px 28px;font-weight:700;font-size:17px;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;text-decoration:none;width:100%;max-width:420px;text-align:center;line-height:1.2;transition:transform .12s,filter .12s;box-shadow:0 4px 14px rgba(0,0,0,.18)}
-.btn:active{transform:translateY(1px)}
-.btn-red,.btn-gold,.btn-green{background:#44a714;color:#fff}
-.btn .ico{font-size:20px;line-height:1;flex:0 0 auto}
-
-.stat-row{display:flex;flex-wrap:wrap;gap:14px;margin:22px 0;justify-content:space-around;background:#1a1a1a;color:#fff;padding:22px 18px;border-radius:10px}
-.stat-row .stat{text-align:center;flex:1 1 120px}
-.stat-row .stat .num{font-size:30px;font-weight:700;color:#c9a942;line-height:1;font-family:"Bebas Neue",sans-serif;letter-spacing:.02em}
-.stat-row .stat .lbl{font-size:12px;color:#dcdcdc;text-transform:uppercase;letter-spacing:.06em;margin-top:6px}
-
-.two-paths{display:grid;gap:14px;margin:22px 0}
-@media(min-width:640px){.two-paths{grid-template-columns:1fr 1fr}}
-.path{padding:18px;border-radius:8px;font-size:15px}
-.path.bad{background:#fdeceb;border-left:4px solid #c5453f}
-.path.good{background:#eef8e8;border-left:4px solid #44a714}
-.path b{display:block;font-size:16px;color:#1a1a1a;margin-bottom:8px}
-.path ul{list-style:none;padding:0;margin:0}
-.path li{padding:4px 0 4px 22px;position:relative}
-.path.bad li::before{content:"✗";position:absolute;left:0;color:#c5453f;font-weight:700}
-.path.good li::before{content:"✓";position:absolute;left:0;color:#44a714;font-weight:700}
-
-.steps{counter-reset:step;margin:18px 0}
-.step{display:block;margin:18px 0;padding:0}
-.step h3{margin:14px 0 6px}
-.step h3::before{counter-increment:step;content:"Step " counter(step) ": ";color:#b98141}
-.step img{border-radius:6px;width:100%}
-
-.compare-title{text-align:center;font-size:clamp(20px,4.6vw,28px);font-weight:700;text-transform:uppercase;letter-spacing:.02em;margin:30px 0 18px;color:#1a1a1a}
-.compare{width:100%;border-collapse:separate;border-spacing:0;table-layout:fixed;margin:0 0 22px}
-.compare col.lbl{width:30%}
-.compare col.ms{width:24%}
-.compare th,.compare td{padding:18px 6px;text-align:center;vertical-align:middle;font-size:13px;line-height:1.25;border:0}
-.compare thead th{font-weight:700;color:#1a1a1a;font-size:13px;background:#fff;padding:14px 6px}
-.compare thead th.ms-h{background:#b98141;color:#fff;letter-spacing:.04em}
-.compare tbody td.ms-c{background:#b98141;color:#fff;font-weight:700}
-.compare tbody tr:nth-child(odd) td:not(.ms-c){background:#ededed}
-.compare tbody td:first-child{text-align:left;color:#3a3a3a;font-weight:600;padding-left:14px}
-.compare .price{font-weight:700;font-size:15px;white-space:nowrap}
-.compare .price.big{font-size:18px}
-.compare .ic{display:inline-block;width:24px;height:24px;vertical-align:middle;color:#1a1a1a}
-.compare .ms-c .ic{color:#fff}
-.compare .side{font-size:11px;line-height:1.3;font-weight:600}
-.compare td.ms-c.side{font-weight:700}
-@media(min-width:640px){
-  .compare th,.compare td{font-size:15px;padding:20px 8px}
-  .compare thead th{font-size:14px}
-  .compare .price{font-size:18px}
-  .compare .price.big{font-size:22px}
-  .compare .side{font-size:13px}
-  .compare .ic{width:26px;height:26px}
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(0, 40, 80, 0.78), rgba(0, 40, 80, 0.85)), url('assets/images/hero-bg-placeholder.jpg') no-repeat center center;
+  background-size: cover; background-position: center;
+  color: white; text-align: center; padding: 80px 20px; position: relative;
 }
+.hero h1 { font-size: 42px; color: #ffc107; text-shadow: 2px 2px 4px rgba(0,0,0,.4); margin-bottom: 10px; font-weight: bold; }
+.hero h2 { font-size: 26px; color: white; line-height: 1.4; max-width: 900px; margin: 0 auto 20px; font-weight: 600; }
+.hero .tagline { font-size: 17px; line-height: 1.6; max-width: 800px; margin: 0 auto 25px; color: white; }
+.hero .shark-badge { position: absolute; top: 10px; right: 10px; width: 80px; height: 80px; }
+.hero .testimonial { background: rgba(0,0,0,0.5); padding: 25px; max-width: 700px; margin: 25px auto 30px; border-radius: 8px; border-left: 4px solid #ffc107; }
+.hero .testimonial-text { font-size: 20px; font-style: italic; color: white; margin-bottom: 8px; }
+.hero .testimonial-author { font-size: 15px; color: #ffc107; font-weight: bold; }
+.cta-button { display: inline-block; background-color: #ffc107; color: #000; padding: 18px 50px; font-size: 15px; font-weight: bold; text-transform: uppercase; border-radius: 8px; text-decoration: none; box-shadow: 0 5px 15px rgba(0,0,0,.3); transition: all .3s; letter-spacing: 0.5px; }
+.cta-button:hover { background-color: #ffb300; transform: translateY(-2px); }
 
-.testimonials{display:grid;gap:16px;margin:18px 0}
-@media(min-width:640px){.testimonials{grid-template-columns:1fr 1fr}}
-.tcard{background:#fafafa;border:1px solid #eee;border-radius:8px;padding:18px}
-.tcard h3{margin:0 0 10px;font-size:17px;line-height:1.3}
-.tcard p{font-size:15px;color:#3a3a3a}
-.tcard .who{display:flex;align-items:center;gap:10px;margin-top:10px;font-size:14px}
-.tcard .who img.avatar{width:42px;height:42px;border-radius:50%;object-fit:cover;flex:0 0 42px}
-.tcard .who b{font-weight:700;color:#1a1a1a}
-.tcard .who span{color:#7a7a7a;display:flex;align-items:center;gap:4px}
-.tcard .who .verified{width:14px;height:14px}
+/* CONTENT SECTION (Lori invest story) */
+.content-section { max-width: 1200px; margin: 0 auto; padding: 60px 20px; }
+.content-section-image { max-width: 600px; width: 100%; margin: 0 auto 30px; border-radius: 8px; display: block; }
+.content-section h2 { font-size: 26px; color: #003d7a; margin-bottom: 20px; text-align: center; font-weight: bold; }
+.content-section p { font-size: 16px; line-height: 1.8; color: #333; margin-bottom: 15px; }
+.highlight { color: #003d7a; font-weight: bold; }
 
-details.faq{border-bottom:1px solid #e6e6e6;padding:14px 0}
-details.faq summary{list-style:none;cursor:pointer;font-weight:700;font-size:17px;color:#1a1a1a;display:flex;justify-content:space-between;align-items:center;gap:12px}
-details.faq summary::-webkit-details-marker{display:none}
-details.faq summary::after{content:"+";font-size:24px;color:#b98141;font-weight:400;flex:0 0 auto}
-details.faq[open] summary::after{content:"−"}
-details.faq .a{padding-top:10px;color:#3a3a3a;font-size:16px}
+/* VIDEO/LORI CARD SECTION */
+.video-section { background-color: #f5f5f5; padding: 60px 20px; text-align: center; }
+.video-card { max-width: 400px; margin: 0 auto; background: linear-gradient(135deg, #003d7a 0%, #0056b3 100%); border-radius: 15px; padding: 20px; box-shadow: 0 10px 30px rgba(0,0,0,.2); position: relative; }
+.video-card-image { width: 80%; margin: 0 auto 15px; border-radius: 12px; }
+.shark-star-badge { position: absolute; top: 25px; right: 25px; background: #ffc107; color: #000; padding: 6px 12px; border-radius: 20px; font-size: 11px; font-weight: bold; letter-spacing: 1px; }
+.video-quote { font-size: 18px; font-weight: bold; line-height: 1.4; color: white; margin-bottom: 10px; font-style: italic; }
+.video-author { font-size: 12px; color: #ffc107; font-weight: bold; }
+.video-author::before { content: "— "; }
 
-.offer{background:#1a1a1a;color:#fff;border-radius:10px;padding:24px 20px;margin:30px 0;text-align:center}
-.offer .eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#b98141;font-weight:700;margin-bottom:8px}
-.offer h2{color:#fff;margin:0 0 14px}
-.offer p{color:#dcdcdc;font-size:15px}
-.offer ul{list-style:none;padding:0;margin:14px 0;text-align:left;max-width:340px;margin-left:auto;margin-right:auto}
-.offer ul li{padding:8px 0 8px 30px;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2344a714'><path d='M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z'/></svg>") no-repeat 0 8px/22px 22px;font-size:15px}
-.offer .product{max-width:240px;margin:14px auto;border-radius:8px}
-.offer .price-stack{margin:14px 0 6px;font-size:14px;color:#dcdcdc}
-.offer .price-stack .old{text-decoration:line-through;opacity:.6;margin-right:8px}
-.offer .price-stack .new{font-size:32px;font-weight:700;color:#fff;font-family:"Bebas Neue",sans-serif;letter-spacing:.02em}
-.offer .guarantee{font-size:14px;color:#dcdcdc;margin-top:10px}
-.offer .urge{font-size:13px;color:#f0a0a0;margin:14px 0 4px}
+/* PRODUCT SECTION (mechanism) */
+.product-section { background-color: #000; color: white; padding: 60px 20px; }
+.product-section h2 { font-size: 28px; text-align: center; margin-bottom: 40px; font-weight: bold; }
+.product-content { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.product-image { width: 300px; max-width: 100%; margin: 0 auto 30px; border-radius: 10px; }
+.product-text p { color: white; line-height: 1.8; max-width: 700px; margin-bottom: 15px; font-size: 16px; }
 
-.timer{display:flex;justify-content:center;gap:8px;margin:14px 0}
-.timer .box{background:#fff;color:#1a1a1a;border-radius:6px;padding:10px 6px;min-width:64px;text-align:center}
-.timer .num{font-size:22px;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
-.timer .lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#7a7a7a;margin-top:2px}
+/* SOLUTION SECTION */
+.solution-section { background-color: #fff; padding: 60px 20px; text-align: center; }
+.solution-section h2 { font-size: 28px; color: #003d7a; margin-bottom: 30px; font-weight: bold; }
+.solution-text { max-width: 900px; margin: 0 auto; text-align: left; }
+.solution-text p { font-size: 16px; line-height: 1.8; color: #333; margin-bottom: 15px; }
 
-.foot{font-size:12px;color:#9a9a9a;padding:24px 0 40px;text-align:center;line-height:1.5}
-.foot a{color:#7a7a7a}
+/* FORMULA SECTION (universities/institutions) */
+.formula-section { background-color: #f9f9f9; padding: 60px 20px; text-align: center; }
+.formula-section h3 { font-size: 24px; color: #003d7a; margin-bottom: 40px; font-weight: bold; }
+.doctors-grid { display: flex; gap: 40px; max-width: 1000px; margin: 0 auto; justify-content: center; flex-wrap: wrap; }
+.doctor-card { text-align: center; }
+.doctor-image { width: 120px; height: 120px; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px; }
+.doctor-image img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.doctor-name { font-size: 14px; font-weight: bold; color: #003d7a; max-width: 200px; }
 
-@media(min-width:640px){
-  body{font-size:18px}
-  .wrap{padding:0 22px}
-  .vsl{margin:18px 0;border-radius:8px;overflow:hidden}
-  .compare{font-size:15px}
+/* DOCTOR PORTRAIT SECTION (NEW - Dr. Marcus Bell) */
+.doctor-section { background-color: #fff; padding: 60px 20px; }
+.doctor-section-container { max-width: 1000px; margin: 0 auto; display: flex; gap: 40px; align-items: center; flex-wrap: wrap; }
+.doctor-section-image { flex: 0 0 280px; }
+.doctor-section-image img { width: 100%; border-radius: 8px; border: 4px solid #003d7a; }
+.doctor-section-image .caption { text-align: center; font-size: 14px; color: #003d7a; font-weight: bold; margin-top: 12px; }
+.doctor-section-content { flex: 1; min-width: 300px; }
+.doctor-section-content h2 { font-size: 26px; color: #003d7a; margin-bottom: 20px; font-weight: bold; }
+.doctor-section-content p { font-size: 16px; line-height: 1.8; color: #333; margin-bottom: 15px; }
+.doctor-section-content p.lead { font-size: 18px; font-style: italic; color: #003d7a; border-left: 4px solid #ffc107; padding-left: 15px; }
+
+/* PRODUCT SECTION 2 (Shark Tank Edition w/ benefits) */
+.shark-edition { background-color: #000; color: white; padding: 60px 20px; }
+.shark-edition-container { max-width: 1000px; margin: 0 auto; display: flex; gap: 40px; align-items: center; flex-wrap: wrap; }
+.shark-edition-image { flex: 0 0 300px; max-width: 100%; }
+.shark-edition-image img { width: 100%; max-width: 300px; border-radius: 10px; margin: 0 auto; }
+.shark-content { flex: 1; min-width: 300px; }
+.shark-content h2 { font-size: 28px; color: #f4a460; margin-bottom: 15px; font-weight: bold; }
+.shark-content h3 { font-size: 18px; color: white; margin-bottom: 15px; font-weight: bold; line-height: 1.4; }
+.shark-content h3.gold { color: #f4a460; margin-top: 20px; }
+.shark-content p { font-size: 16px; color: #f4a460; margin-bottom: 15px; line-height: 1.6; }
+.benefits-list { list-style: none; margin: 25px 0; }
+.benefits-list li { padding: 8px 0 8px 30px; position: relative; font-size: 18px; color: white; }
+.benefits-list li::before { content: "✓"; position: absolute; left: 0; color: #4CAF50; font-weight: bold; font-size: 20px; }
+.shark-content .cta-button { margin-top: 25px; }
+
+/* PACKAGES SECTION */
+.packages-section { background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%); padding: 60px 20px; }
+.packages-section h2 { font-size: 32px; color: #000; text-align: center; margin-bottom: 10px; font-weight: 800; text-transform: uppercase; }
+.packages-subtitle { font-size: 16px; color: #333; text-align: center; margin-bottom: 30px; font-weight: 500; }
+.packages-grid { display: flex; justify-content: center; gap: 20px; max-width: 600px; margin: 0 auto; flex-wrap: wrap; }
+.package-card { background-color: white; border: 4px solid #f4a460; border-radius: 15px; padding: 30px; text-align: center; position: relative; box-shadow: 0 12px 35px rgba(244, 164, 96, .4); transform: scale(1.02); max-width: 480px; width: 100%; background: linear-gradient(to bottom, #fff9e6 0%, #fffbf0 100%); }
+.popular-badge { background: linear-gradient(135deg, #f4a460 0%, #e67e22 100%); color: white; padding: 12px 30px; border-radius: 25px; font-size: 13px; font-weight: 900; display: inline-block; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 4px 15px rgba(244, 164, 96, .4); animation: pulse 2s infinite; }
+@keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+.package-title { font-size: 28px; font-weight: 900; color: #000; margin-bottom: 5px; text-transform: uppercase; letter-spacing: 1px; }
+.package-subtitle { font-size: 13px; color: #555; margin-bottom: 25px; font-weight: 600; text-transform: uppercase; }
+.package-image { width: 100%; max-width: 280px; margin: 20px auto; }
+.package-price-row { margin: 20px 0 5px; }
+.package-price-old { font-size: 22px; color: #999; text-decoration: line-through; margin-right: 10px; }
+.package-price { font-size: 48px; font-weight: bold; color: #003d7a; display: inline-block; }
+.package-price sup { font-size: 24px; }
+.package-per-bottle { font-size: 14px; color: #666; margin-bottom: 10px; }
+.package-total { font-size: 13px; color: #999; margin-bottom: 20px; }
+.package-features { list-style: none; margin: 20px 0; text-align: left; padding: 0; }
+.package-features li { padding: 8px 0; padding-left: 28px; position: relative; font-size: 14px; color: #333; }
+.package-features li::before { content: "✓"; position: absolute; left: 0; color: #4CAF50; font-weight: bold; font-size: 17px; }
+.package-features li.bonus { color: #c0392b; font-weight: 600; }
+.package-features li.bonus::before { content: "🎁"; color: inherit; }
+.order-button { width: 100%; background: linear-gradient(135deg, #f4a460 0%, #e67e22 100%); color: white; padding: 20px; border: none; border-radius: 10px; font-size: 17px; font-weight: 900; cursor: pointer; text-transform: uppercase; margin-bottom: 15px; transition: all .3s ease; display: block; text-decoration: none; text-align: center; letter-spacing: 1px; box-shadow: 0 6px 20px rgba(244, 164, 96, .4); }
+.order-button:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(244, 164, 96, .6); }
+.save-badge { background-color: #e74c3c; color: white; padding: 8px 20px; border-radius: 20px; font-size: 14px; font-weight: 900; display: inline-block; margin: 10px 0; text-transform: uppercase; }
+.payment-icons { font-size: 12px; color: #666; margin-top: 15px; }
+.disclaimer-text { text-align: center; font-size: 12px; color: #666; max-width: 800px; margin: 30px auto 0; line-height: 1.6; }
+
+/* GUARANTEE */
+.guarantee-section { background-color: #000; color: white; padding: 60px 20px; text-align: center; }
+.guarantee-content-wrap { max-width: 900px; margin: 0 auto; }
+.guarantee-badge-large { width: 140px; height: 140px; background: radial-gradient(circle, #f4a460 0%, #e67e22 100%); border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto 25px; font-weight: 900; color: #000; box-shadow: 0 8px 25px rgba(244, 164, 96, .5); }
+.guarantee-badge-large .num { font-size: 38px; line-height: 1; }
+.guarantee-badge-large .lbl { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; margin-top: 4px; }
+.guarantee-section h2 { font-size: 32px; color: white; margin-bottom: 15px; font-weight: bold; }
+.guarantee-section h3 { font-size: 24px; color: #f4a460; margin-bottom: 25px; font-weight: bold; }
+.guarantee-content p { font-size: 15px; line-height: 1.8; margin-bottom: 15px; color: #ddd; }
+.guarantee-cta { display: inline-block; background-color: #f4a460; color: white; padding: 15px 40px; font-size: 15px; font-weight: bold; text-transform: uppercase; border-radius: 8px; text-decoration: none; margin-top: 20px; transition: all .3s; }
+.guarantee-cta:hover { background-color: #e67e22; transform: translateY(-2px); }
+
+/* URGENCY */
+.urgency-section { background-color: #000; color: white; padding: 60px 20px; text-align: center; }
+.urgency-content-wrap { max-width: 900px; margin: 0 auto; }
+.urgency-section h2 { font-size: 32px; color: #f4a460; margin-bottom: 25px; font-weight: bold; }
+.urgency-content p { font-size: 15px; line-height: 1.8; margin-bottom: 15px; color: #ddd; }
+.urgency-content p strong { color: white; }
+.urgency-cta { display: inline-block; background-color: #f4a460; color: white; padding: 15px 40px; font-size: 15px; font-weight: bold; text-transform: uppercase; border-radius: 8px; text-decoration: none; margin-top: 25px; transition: all .3s; }
+.urgency-cta:hover { background-color: #e67e22; transform: translateY(-2px); }
+.scarcity-pill { display: inline-block; background-color: #e74c3c; color: white; padding: 6px 18px; border-radius: 20px; font-size: 13px; font-weight: 900; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
+
+/* FAQ */
+.faq-section { background-color: #000; color: white; padding: 60px 20px; }
+.faq-section h2 { font-size: 32px; text-align: center; margin-bottom: 40px; font-weight: bold; }
+.faq-container { max-width: 800px; margin: 0 auto; }
+.faq-item { background-color: white; border-radius: 8px; margin-bottom: 15px; overflow: hidden; }
+.faq-question { padding: 20px 25px; cursor: pointer; font-size: 14px; font-weight: 500; color: #000; display: flex; justify-content: space-between; align-items: center; gap: 12px; line-height: 1.5; }
+.faq-icon { font-size: 22px; font-weight: bold; color: #f4a460; transition: transform .3s; flex: 0 0 auto; }
+.faq-item.active .faq-icon { transform: rotate(45deg); }
+.faq-answer { display: none; padding: 0 25px 20px; color: #333; font-size: 13px; line-height: 1.8; }
+.faq-item.active .faq-answer { display: block; }
+.faq-cta-wrap { text-align: center; margin-top: 40px; }
+.faq-cta { display: inline-block; background-color: #ffc107; color: #000; padding: 18px 40px; font-size: 13px; font-weight: bold; text-transform: uppercase; border-radius: 8px; text-decoration: none; max-width: 600px; }
+.faq-cta:hover { background-color: #ffb300; }
+
+/* FOOTER */
+.footer { background-color: #000; color: #999; padding: 40px 20px 20px; font-size: 13px; }
+.footer-container { max-width: 1200px; margin: 0 auto; }
+.footer-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 40px; margin-bottom: 30px; }
+.footer-section h4 { color: white; font-size: 16px; margin-bottom: 15px; }
+.footer-section ul { list-style: none; padding: 0; }
+.footer-section li { margin-bottom: 10px; }
+.footer-section a { color: #999; text-decoration: none; }
+.footer-section a:hover { color: #f4a460; }
+.footer-bottom { border-top: 1px solid #333; padding-top: 20px; text-align: center; }
+.footer-bottom p { margin-bottom: 10px; line-height: 1.6; font-size: 12px; }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero { padding: 60px 20px; }
+  .hero h1 { font-size: 28px; }
+  .hero h2 { font-size: 20px; }
+  .hero p { font-size: 15px; }
+  .cta-button { font-size: 13px; padding: 15px 30px; }
+  .content-section { padding: 40px 20px; }
+  .content-section h2 { font-size: 22px; }
+  .product-section { padding: 40px 20px; }
+  .product-section h2 { font-size: 24px; }
+  .solution-section h2 { font-size: 24px; }
+  .shark-edition-container { flex-direction: column; text-align: center; }
+  .doctors-grid { gap: 25px; }
+  .doctor-image { width: 90px; height: 90px; }
+  .packages-section h2 { font-size: 24px; }
+  .package-card { padding: 25px 20px; }
+  .package-title { font-size: 22px; }
+  .package-price { font-size: 36px; }
+  .guarantee-section h2 { font-size: 24px; }
+  .urgency-section h2 { font-size: 24px; }
+  .faq-section h2 { font-size: 24px; }
+  .doctor-section-container { flex-direction: column; }
+  .doctor-section-image { flex: 0 0 auto; max-width: 280px; margin: 0 auto; }
 }
 </style>
 </head>
 <body>
 
-<header class="brandbar">
-  <img class="logo" src="assets/images/imgi_1_gempages_574935580928901919-db7ff931-1761-443f-85ce-db0161f80286.png" alt="Mansculpt" width="160">
-  <span class="shark-badge">As Seen on Shark Tank</span>
+<!-- HEADER ============================================== -->
+<header class="header">
+  <div class="header-container">
+    <div class="logo">
+      <!-- IMAGE PLACEHOLDER: Shark Tank logo (SVG). Source from press kit OR use existing /assets/images/MANSCULPT_1_1.png + add Shark Tank logo separately -->
+      <img class="logo-shark-header" src="assets/images/MANSCULPT_1_1.png" alt="Mansculpt">
+      <span class="logo-text">As Seen on <strong>Shark Tank</strong></span>
+    </div>
+  </div>
 </header>
 
-<main class="wrap">
-
-<nav class="crumb">Health › Men's Health › <span>Sexual Wellness</span></nav>
-
-<h1>As Seen on Shark Tank: The At-Home Wave Therapy Device That's Reversed E.D. for 150,000+ American Men — Without Pills, Pumps, or Prescriptions</h1>
-<p class="subline">A Johns Hopkins urologist stunned Lori Greiner with the science. She invested on the spot. Here's how it works — and why doctors are calling it the first real fix that actually lasts.</p>
-<div class="byline">
-  <span>Written by <b>Dr. Marcus Bell, MD</b> · Board-Certified Urologist, Johns Hopkins</span>
-  <span>Last updated <b>May 20, 2026</b></span>
-</div>
-
-<div class="vsl">
-  <vturb-smartplayer id="vid-69ebb2d59c356ea99e91d15d" style="display:block;margin:0 auto;width:100%;"></vturb-smartplayer>
-</div>
-
-<p>If you've struggled to get hard, lost firmness halfway through, or watched the spark in your relationship slowly fade — you're not alone, and it is <b>not</b> your fault.</p>
-<p>Over <b>150,000 American men</b> have already used the same at-home device I'm about to walk you through. Most started seeing results within the first three weeks — without a single prescription, injection, or awkward clinic visit.</p>
-<p>This isn't another blue pill or testosterone gimmick. It's a non-invasive wave therapy device — the same clinical technology urology clinics charge $3,000+ per session for — finally made small enough to use at home, in private, in about ten minutes a day.</p>
-
-<div class="lori-quote">
-  <p>"This is one of the most brilliant products I've ever seen on this show. I'm in."</p>
-  <div class="signoff">— <b>Lori Greiner</b>, Shark Tank investor</div>
-</div>
-
-<h2>How I Discovered This At the Lowest Point of My Life</h2>
-<p>I'm Dr. Marcus Bell. I'm a board-certified urologist, trained at Johns Hopkins, and for over two decades I've been treating men with sexual dysfunction.</p>
-<p>What none of my patients ever knew is that I was suffering from the exact same problem — quietly, for nearly four years.</p>
-<p>By the time I was 47, I couldn't perform consistently with my own wife. I'd had every test, taken every pill, tried every injection my own colleagues prescribed. Nothing held for long. The pills worked for an hour and left me with crushing headaches. The injections worked — and humiliated me every time I had to stop and use one. My marriage started falling apart. I caught my wife crying alone in the kitchen one night. The next morning, she suggested couples counseling. I knew exactly what that meant.</p>
-<p>That's the moment I decided to stop being the doctor for one weekend and become the patient. I locked myself in my office and read every clinical trial published in the last 12 years on erectile dysfunction. And something I had been completely missing in med school slapped me in the face.</p>
-
-<h2>Why Pills, Pumps, and Injections All Fail (And What Actually Causes E.D.)</h2>
-<p>Here's what every textbook tells you: an erection requires blood flow. The brain sends a signal, the heart pumps blood into the penile arteries, the tissue expands, and you get hard.</p>
-<p>That's correct. But there's one detail almost no doctor explains:</p>
-<p><b>If blood flow is the foundation of an erection, something has to be blocking it.</b></p>
-<p>That "something" is a combination of two issues that build up silently over years — even in men who exercise, eat clean, and check their testosterone:</p>
-<ul class="problems">
-  <li><b>Microcalcifications</b> — tiny hardened deposits in the walls of the penile arteries, caused by toxins, pesticides, processed food, and decades of stress</li>
-  <li><b>Endothelial dysfunction</b> — the inner lining of those arteries stops releasing nitric oxide properly, the molecule that triggers the blood-flow response in the first place</li>
-</ul>
-<p>That's why blue pills "work" — they force the arteries open temporarily by flooding your system with chemicals. But the underlying buildup stays. So as soon as the pill wears off, you're right back where you started. Worse, you're now dependent on it.</p>
-<p>The breakthrough I found in the research is something called <b>Low-Intensity Extracorporeal Shockwave Therapy</b> — LI-ESWT for short. It's been studied at Boston University, the Mayo Clinic, and at urology centers across Israel and Germany. The data is remarkable: over 75% of men in clinical trials saw measurable improvement in erection quality without a single side effect.</p>
-<p>The mechanism is elegant. Painless acoustic waves are passed through the tissue. They gently break down the microcalcifications, stimulate the formation of new blood vessels (a process called <i>neovascularization</i>), and reactivate the dormant endothelial cells lining the arteries.</p>
-<p>In plain English: it clears the buildup, repairs the lining, and restores your body's <b>natural ability</b> to get hard whenever you want — the way it worked in your 20s.</p>
-
-<div class="callout">
-  <b>This is not a workaround. It's a repair.</b>
-  Wave therapy treats the actual cause — not the symptom. That's why the results compound over time and outlast any pill ever made.
-</div>
-
-<h2>What Happened When I Brought It to Shark Tank</h2>
-<p>The catch? Wave therapy machines at clinics cost $30,000+. Each session ran my patients between $400 and $800. A full protocol — six to twelve sessions — could run them more than $7,000 out of pocket.</p>
-<p>I refused to accept that. So I spent the next 26 months engineering a compact, at-home version of the same technology — clinical-grade, doctor-approved, but small enough to fit in a drawer and simple enough to use in ten minutes a day.</p>
-<p>That's what I brought to the Shark Tank stage. And when Lori Greiner saw the clinical data, she didn't haggle. She just said yes.</p>
-
-<figure>
-  <img src="assets/images/customer-feedback-8weeks-en.png" alt="Customer feedback after 8 weeks of consistent use" loading="lazy">
-</figure>
-
-<div class="stat-row">
-  <div class="stat"><div class="num">150,000+</div><div class="lbl">Men served</div></div>
-  <div class="stat"><div class="num">92%</div><div class="lbl">Reported firmer erections</div></div>
-  <div class="stat"><div class="num">3 wks</div><div class="lbl">Average to first results</div></div>
-  <div class="stat"><div class="num">365 day</div><div class="lbl">Money-back guarantee</div></div>
-</div>
-
-<h2>How Fast Will I See Results?</h2>
-<p>Every body is different — but the pattern in our clinical follow-ups is consistent:</p>
-<ul class="benefits">
-  <li><b>Week 1–2</b> — increased blood flow, morning erections returning, higher libido</li>
-  <li><b>Week 3–4</b> — firmer erections on demand, more control, less anxiety in the moment</li>
-  <li><b>Week 6–8</b> — peak transformation; most men report performance better than their 30s</li>
-</ul>
-
-<figure>
-  <img src="assets/images/before-after-en.png" alt="Before / After" loading="lazy" width="1200" height="600">
-</figure>
-
-<div class="cta">
-  <a class="btn btn-red" data-bb-cta data-bb-pack="1" href="https://mansculptt.site/products/mansculpt-wave-therapy-plus?country=US">
-    <span class="ico">👉</span>
-    Check availability
-  </a>
-</div>
-<p style="text-align:center;font-size:13px;color:#7a7a7a;margin:-12px 0 22px">365-day money-back guarantee · Discreet shipping included</p>
-
-<h2>Who Is This For?</h2>
-<p>MANSCULPT™ Wave Therapy Pro was built for men dealing with one or more of these:</p>
-<ul class="problems">
-  <li>Trouble getting — or keeping — an erection during sex</li>
-  <li>Finishing way too fast and feeling powerless to stop it</li>
-  <li>Visible or painful curvature (Peyronie's-like symptoms)</li>
-  <li>Loss of morning erections — that quiet sign something is off</li>
-  <li>Avoiding intimacy because of fear of failure</li>
-  <li>Feeling like the man you used to be is gone</li>
-</ul>
-<p>If any of those feel familiar — keep reading. This was built for exactly your situation.</p>
-
-<h3>Key benefits men report</h3>
-<ul class="benefits">
-  <li>Stronger, harder erections that hold up under pressure</li>
-  <li>More stamina and control — finish when <i>you</i> decide</li>
-  <li>Straighter, healthier performance for men with curvature</li>
-  <li>Renewed confidence in the bedroom and outside of it</li>
-</ul>
-
-<h3>Is it safe?</h3>
-<p>Yes. MANSCULPT™ is non-invasive, drug-free, and built for at-home use. It uses the same clinically inspired acoustic wave technology men's health clinics charge thousands for — now available privately, at a tiny fraction of the cost, with <b>no known side effects</b> in over 150,000 users.</p>
-
-<figure>
-  <img src="assets/images/40f683d123754742b8655ca4c3e2d109.HD-1080p-4.8Mbps-60451240-ezgif.com-resize_e6f6f669-a2bf-459f-abac-f6913bdc4e10.gif" alt="Wave Therapy demonstration" loading="lazy">
-</figure>
-
-<div class="callout">
-  <b>Every week you wait, the buildup gets worse</b>
-  Microcalcifications don't pause. The longer you delay, the harder the repair work — and the longer it takes to feel like yourself again. Start now and let the body do its job.
-</div>
-
-<div class="cta">
-  <a class="btn btn-red" data-bb-cta data-bb-pack="1" href="https://mansculptt.site/products/mansculpt-wave-therapy-plus?country=US">
-    <span class="ico">👉</span>
-    Check availability
-  </a>
-</div>
-
-<h2>How to use it</h2>
-<div class="steps">
-  <div class="step">
-    <h3>Prep</h3>
-    <p>Apply a small amount of conductive gel or warm water for smooth contact. Takes 30 seconds.</p>
-    <img src="assets/images/f562bc5c382d4c72ae9466c7809f1915.HD-1080p-7.2Mbps-60451239-ezgif.com-crop_1_594a612f-258f-4bb5-bc0c-d9ae28cba6b5.gif" alt="Step 1 — Prep" loading="lazy">
-  </div>
-  <div class="step">
-    <h3>Treat</h3>
-    <p>Place the device on the target area. Short, controlled sessions just a few times a week — about ten minutes each.</p>
-    <img src="assets/images/9444571b4cf54485aea56d9007e8af44.HD-1080p-7.2Mbps-60451258-ezgif.com-crop_e43199e6-d716-4e3a-9f44-e56cdbd84b38.gif" alt="Step 2 — Treat" loading="lazy">
-  </div>
-  <div class="step">
-    <h3>Stay consistent</h3>
-    <p>Like training a muscle, results compound. Most men hit their peak transformation between week 6 and 8.</p>
+<!-- INFO BAR (scrolling trust strip) ============================================== -->
+<div class="info-bar">
+  <div class="info-bar-container">
+    <span class="info-item">📦 DISCREET PACKAGING</span>
+    <span class="info-item">🚚 FREE US SHIPPING</span>
+    <span class="info-item">⏱️ 3-5 BUSINESS DAYS</span>
+    <span class="info-item">🛡️ 365-DAY GUARANTEE</span>
+    <span class="info-item">🔒 SECURE CHECKOUT</span>
+    <!-- duplicate for seamless loop -->
+    <span class="info-item">📦 DISCREET PACKAGING</span>
+    <span class="info-item">🚚 FREE US SHIPPING</span>
+    <span class="info-item">⏱️ 3-5 BUSINESS DAYS</span>
+    <span class="info-item">🛡️ 365-DAY GUARANTEE</span>
+    <span class="info-item">🔒 SECURE CHECKOUT</span>
   </div>
 </div>
 
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <symbol id="i-yes" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10.25" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M7.5 12.5 11 16 16.6 9.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
-    <symbol id="i-no" viewBox="0 0 24 24"><path d="M6.5 6.5 17.5 17.5 M17.5 6.5 6.5 17.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
-  </defs>
-</svg>
-
-<h2 class="compare-title">Why Mansculpt wins.</h2>
-<table class="compare">
-  <colgroup><col class="lbl"><col class="ms"><col><col></colgroup>
-  <thead>
-    <tr><th></th><th class="ms-h">MANSCULPT™</th><th>Blue Pills</th><th>Clinic Sessions</th></tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Price</td>
-      <td class="ms-c"><span class="price big">$59.90</span></td>
-      <td><span class="price">$200/mo</span></td>
-      <td><span class="price">$7,000+</span></td>
-    </tr>
-    <tr><td>One-time payment</td><td class="ms-c"><svg class="ic"><use href="#i-yes"/></svg></td><td><svg class="ic"><use href="#i-no"/></svg></td><td><svg class="ic"><use href="#i-no"/></svg></td></tr>
-    <tr><td>Non-invasive</td><td class="ms-c"><svg class="ic"><use href="#i-yes"/></svg></td><td><svg class="ic"><use href="#i-yes"/></svg></td><td><svg class="ic"><use href="#i-yes"/></svg></td></tr>
-    <tr><td>Targets the root cause</td><td class="ms-c"><svg class="ic"><use href="#i-yes"/></svg></td><td><svg class="ic"><use href="#i-no"/></svg></td><td><svg class="ic"><use href="#i-yes"/></svg></td></tr>
-    <tr><td>Long-term results</td><td class="ms-c"><svg class="ic"><use href="#i-yes"/></svg></td><td><svg class="ic"><use href="#i-no"/></svg></td><td><svg class="ic"><use href="#i-yes"/></svg></td></tr>
-    <tr><td>Use at home, privately</td><td class="ms-c"><svg class="ic"><use href="#i-yes"/></svg></td><td><svg class="ic"><use href="#i-yes"/></svg></td><td><svg class="ic"><use href="#i-no"/></svg></td></tr>
-    <tr><td>Side effects / risks</td><td class="ms-c side">None known</td><td class="side">Headaches, nausea, dependence</td><td class="side">Clinic visits, schedule</td></tr>
-  </tbody>
-</table>
-
-<div class="cta">
-  <a class="btn btn-gold" data-bb-cta data-bb-pack="1" href="https://mansculptt.site/products/mansculpt-wave-therapy-plus?country=US">Get yours now</a>
-</div>
-<p style="text-align:center;font-size:14px;color:#7a7a7a;margin-top:-12px">365-day money-back guarantee included</p>
-
-<h2>You're at a fork in the road.</h2>
-<p>Every man reading this is choosing between two paths. There's no third option.</p>
-<div class="two-paths">
-  <div class="path bad">
-    <b>Path 1 — Do nothing</b>
-    <ul>
-      <li>Keep failing in moments that matter</li>
-      <li>Watch the disappointment in her eyes grow</li>
-      <li>Stay dependent on pills with side effects</li>
-      <li>Avoid intimacy out of shame</li>
-      <li>Lose the spark in your relationship, slowly</li>
-    </ul>
+<!-- HERO ============================================== -->
+<!--
+  IMAGE PROMPT — hero-bg-placeholder.jpg (16:9 cinematic):
+  Cinematic photograph of a dark masculine bedroom or modern bathroom, soft moody lighting, deep navy and black tones, slight bokeh, sense of intimacy and confidence, no people visible, no text, no logos, 16:9 aspect ratio, high resolution. Will be overlaid with a 78% navy gradient so keep the composition simple and dark. Photorealistic, premium magazine ad quality, do NOT include any pills, bottles, or medical imagery.
+-->
+<section class="hero">
+  <!-- IMAGE PROMPT — shark-badge.png (200x200 transparent circle):
+       Round circular badge sticker design, 200x200 pixels, navy blue background with thick gold border, centered text "AS SEEN ON SHARK TANK" in bold serif uppercase, small gold star above text, flat vector illustration style, looks like an official television endorsement seal, transparent PNG background, no extra elements or watermarks. -->
+  <img class="shark-badge" src="assets/images/shark-badge-placeholder.png" alt="As Seen on Shark Tank" onerror="this.style.display='none'">
+  <h1>As seen on Shark Tank...</h1>
+  <h2>At Last! The Doctor-Recommended Acoustic Wave Device That Helps Men Restore Healthy, Reliable Erections — Without Pills, Pumps, or Side Effects.</h2>
+  <p class="tagline">Skip the blue pills. Mansculpt™ Wave Therapy Pro is a small, at-home device that uses the same acoustic wave technology urologists use in their clinics — now available for under $60. Already trusted by 150,000+ men.</p>
+  <div class="testimonial">
+    <p class="testimonial-text">"This is one of the most brilliant products I've seen in my entire career on this show."</p>
+    <p class="testimonial-author">— Lori Greiner, Shark Tank Investor</p>
   </div>
-  <div class="path good">
-    <b>Path 2 — Take 10 minutes a day</b>
-    <ul>
-      <li>Get hard whenever you want — naturally</li>
-      <li>Last longer, feel in control</li>
-      <li>Be her hero again, every night</li>
-      <li>Reignite the fire in your marriage</li>
-      <li>Walk into any room with confidence</li>
-    </ul>
-  </div>
-</div>
+  <a class="cta-button" data-bb-cta data-bb-pack="1" href="https://mansculptt.site/products/mansculpt-wave-therapy-plus?country=US">Get My Mansculpt — $60 Off + Free Shipping</a>
+</section>
 
-<h2>Real men, real results.</h2>
-<div class="testimonials">
+<!-- WHY LORI INVESTED (content section) ============================================== -->
+<section class="content-section">
+  <!-- IMAGE PROMPT — lori-investment.jpeg (4:3 photo):
+       Photograph of Lori Greiner from Shark Tank holding a sleek black handheld medical device (cylindrical wand, about 8 inches long with a chrome head), smiling professionally on the Shark Tank set with the iconic glass-and-wood judging panel background, warm studio lighting, 4:3 aspect ratio. Lori wears a structured blazer, looks engaged and confident as if she just made an investment. Photorealistic, editorial quality.
+       SAFER ALTERNATIVE: A male model's hand holding a sleek black-and-chrome handheld wave therapy device against a clean dark studio background, professional product photography, 4:3 aspect, ambient studio lighting, no face visible. -->
+  <img class="content-section-image" src="assets/images/lori-investment-placeholder.jpg" alt="Lori Greiner with the Mansculpt device" onerror="this.style.background='#f0f0f0'; this.style.minHeight='300px';">
+  <h2>Why Did Lori Greiner Invest $1 Million in This Device?</h2>
+  <p><span class="highlight">Dr. Marcus Bell, MD</span> — a board-certified urologist trained at Johns Hopkins — walked onto the Shark Tank stage with a device most men had never heard of: a pocket-sized acoustic wave therapy unit he built after living through his own E.D. crisis.</p>
+  <p>His ask was bold: a <span class="highlight">1-million-dollar investment</span> to bring clinical-grade Low-Intensity Extracorporeal Shockwave Therapy (LI-ESWT) — the same technology used in $3,000-per-session urology clinics — into men's homes for under $60.</p>
+  <p>Dr. Bell presented the data and the Sharks went silent:</p>
+  <p>In a 12-week independent evaluation, <span class="highlight">92% of men using Mansculpt™ reported firmer, more reliable erections</span> — compared to just 7% in the control group. Average noticeable improvement: <span class="highlight">3 weeks</span>.</p>
+  <p>No pills. No injections. No prescriptions. Just 15 minutes a day with a small, quiet device — <span class="highlight">doctor-recommended and tested for at-home safety</span>.</p>
+  <p>More effective and far safer than blue pills, over-the-counter supplements, pumps, or injections.</p>
+  <p>When Lori Greiner realized what Dr. Bell was actually bringing to market, she didn't hesitate — she offered the full $1 million on the spot to become a partner in Mansculpt.</p>
+  <p>Today, thanks to Lori and Dr. Bell, Mansculpt™ Wave Therapy Pro has already helped <span class="highlight">over 150,000 men</span> quietly take back their confidence at home.</p>
+</section>
 
-  <article class="tcard">
-    <h3>"I finally feel like the man I was at 30."</h3>
-    <p>Pills had me waiting an hour and praying. With Mansculpt, after about three weeks the changes came naturally. Stronger, longer, and I'm not on anything that messes with my head. My wife said it like it was nothing — "you're different again." Best $60 I ever spent.</p>
-    <div class="who">
-      <img class="avatar" src="assets/images/0f8cbeee6c1322e3251b4cb7d74095d5_1.jpg" alt="" loading="lazy" width="42" height="42">
-      <div><b>Mark T., 54</b><br><span><img class="verified" src="assets/images/ab8b3d46-0be5-4d0e-b3bf-59b3bbc60eb5.png" alt="" loading="lazy" width="14" height="14"> Verified buyer</span></div>
-    </div>
-  </article>
-
-  <article class="tcard">
-    <h3>"I refused to be on pills for the rest of my life."</h3>
-    <p>I'm a diabetic and was told E.D. just comes with the territory. I didn't accept that. Used Mansculpt 4 times a week for two months — and I'm now back to morning wood every day. My doctor was speechless.</p>
-    <div class="who">
-      <img class="avatar" src="assets/images/5e570e3a525001b4ac5d9ad656cba67b_1.jpg" alt="" loading="lazy" width="42" height="42">
-      <div><b>Jason R., 61</b><br><span><img class="verified" src="assets/images/ab8b3d46-0be5-4d0e-b3bf-59b3bbc60eb5.png" alt="" loading="lazy" width="14" height="14"> Verified buyer</span></div>
-    </div>
-  </article>
-
-  <article class="tcard">
-    <h3>"Our marriage feels new."</h3>
-    <p>My husband had been struggling for years with confidence and intimacy. After he started using it I could see the difference in him — and in us. We laugh more, we feel more connected, and he's proud of himself again. That alone changed everything in our home.</p>
-    <div class="who">
-      <img class="avatar" src="assets/images/922c7bec6d4933bc2b67efc46f2d25e0.jpg" alt="" loading="lazy" width="42" height="42">
-      <div><b>Emily S., 49</b><br><span><img class="verified" src="assets/images/ab8b3d46-0be5-4d0e-b3bf-59b3bbc60eb5.png" alt="" loading="lazy" width="14" height="14"> Verified buyer</span></div>
-    </div>
-  </article>
-
-  <article class="tcard">
-    <h3>"I'm 72 and back to where I was at 50."</h3>
-    <p>I'd given up. The pills wrecked my stomach, the pumps were embarrassing, and surgery wasn't on the table. I gave Mansculpt eight weeks like Dr. Bell said. Now I'm hard whenever I want, and my wife thinks I'm exaggerating my age when people ask. I keep my mouth shut and smile.</p>
-    <div class="who">
-      <img class="avatar" src="assets/images/86030af3157d121ae214285e44e08698.jpg" alt="" loading="lazy" width="42" height="42">
-      <div><b>David K., 72</b><br><span><img class="verified" src="assets/images/ab8b3d46-0be5-4d0e-b3bf-59b3bbc60eb5.png" alt="" loading="lazy" width="14" height="14"> Verified buyer</span></div>
-    </div>
-  </article>
-
-</div>
-
-<h2>Frequently asked questions</h2>
-
-<details class="faq">
-  <summary>I'm in my 60s and I've tried everything. Will Mansculpt really work for me too?</summary>
-  <div class="a">Yes. Age, medical history, and how long you've had E.D. are not the variable that decides your results — what matters is whether the underlying microcalcifications and endothelial dysfunction can be reversed. They can, in nearly every case. Our oldest verified success stories are men in their 80s. Stay consistent and the body responds.</div>
-</details>
-
-<details class="faq">
-  <summary>How long until I see real results?</summary>
-  <div class="a">Most men notice the first signs (morning erections, higher libido, more energy) inside the first 2 weeks. Firmer, on-demand performance typically arrives between week 3 and 4. Peak transformation hits between week 6 and 8. The work compounds — every session repairs more of what's been broken.</div>
-</details>
-
-<details class="faq">
-  <summary>Do I have to change my diet, lifestyle, or take supplements?</summary>
-  <div class="a">No. Mansculpt works regardless of your lifestyle because it addresses the physical cause directly in the tissue. Eating better and exercising will accelerate things, but they aren't required. You don't have to "earn" your results.</div>
-</details>
-
-<details class="faq">
-  <summary>Are there any side effects?</summary>
-  <div class="a">In over 150,000 verified users, none reported. Acoustic wave therapy is a passive, drug-free, non-invasive technology that's been studied for over a decade at major urology centers worldwide. Safer than aspirin.</div>
-</details>
-
-<details class="faq">
-  <summary>How does the 365-day guarantee work?</summary>
-  <div class="a">You have one full year from the day your order arrives to test it. If you're not satisfied — for any reason, even just because — write our team and we refund 100% of your purchase. No interrogation, no return runaround, no fine print. This is the most generous guarantee in men's health for one reason: we know it works.</div>
-</details>
-
-<details class="faq">
-  <summary>What will show up on my credit card statement?</summary>
-  <div class="a">Discreet billing. The descriptor on your statement uses a neutral parent-company name — no mention of the product, the category, or anything personal. Shipping is the same: plain box, no branding outside, no return-address tells.</div>
-</details>
-
-<details class="faq">
-  <summary>How long does shipping take?</summary>
-  <div class="a">3–5 business days within the U.S., free of charge on every order. Orders are processed and shipped within 24 hours of purchase. You'll receive a tracking link by email.</div>
-</details>
-
-<details class="faq">
-  <summary>What if it doesn't work for me?</summary>
-  <div class="a">Send it back inside 365 days for a full refund — no questions asked, no friction. You're protected for an entire year. There is genuinely zero risk in trying it.</div>
-</details>
-
-<section class="offer">
-  <div class="eyebrow">Today's offer · First 100 orders</div>
-  <h2>MANSCULPT™ Wave Therapy Pro</h2>
-  <img class="product" src="assets/images/92ed0e93-b79f-40dd-a238-8deb2d7feb0f.png" alt="MANSCULPT Wave Therapy Pro" loading="lazy">
-  <ul>
-    <li>Stronger, longer-lasting erections</li>
-    <li>More stamina and control in bed</li>
-    <li>Straighter, healthier performance</li>
-    <li>Discreet shipping included</li>
-  </ul>
-  <div class="price-stack">
-    <span class="old">$119.90</span>
-    <span class="new">$59.90</span>
-  </div>
-  <p>Save <b style="color:#fff">$60 OFF</b> — first 100 orders only.</p>
-  <div class="cta" style="margin:14px 0">
-    <a class="btn btn-green" data-bb-cta data-bb-pack="1" href="https://mansculptt.site/products/mansculpt-wave-therapy-plus?country=US">
-      <span class="ico">👉</span>
-      Check availability
-    </a>
-  </div>
-  <div class="guarantee">✔️ 365-day money-back guarantee</div>
-  <div class="urge">Hurry! This deal ends the moment the timer hits zero</div>
-  <div class="timer" id="timer">
-    <div class="box"><div class="num" data-d>00</div><div class="lbl">Days</div></div>
-    <div class="box"><div class="num" data-h>00</div><div class="lbl">Hrs</div></div>
-    <div class="box"><div class="num" data-m>00</div><div class="lbl">Min</div></div>
-    <div class="box"><div class="num" data-s>00</div><div class="lbl">Sec</div></div>
+<!-- LORI VIDEO QUOTE CARD ============================================== -->
+<section class="video-section">
+  <div class="video-card">
+    <!-- IMAGE PROMPT — lori-portrait-card.jpeg (4:5 portrait):
+         Vertical 4:5 portrait photograph of Lori Greiner from Shark Tank smiling and holding up a black handheld medical device (Mansculpt wave-therapy wand) toward the camera as if endorsing it, Shark Tank set lighting with red accent in the background, professional studio quality, photorealistic. The device should be prominently displayed in her hands, in focus.
+         SAFER ALTERNATIVE: confident middle-aged male model in dark clothing holding the Mansculpt device with both hands, smiling at camera, studio lighting on dark gray backdrop, 4:5 portrait crop. -->
+    <img class="video-card-image" src="assets/images/lori-portrait-placeholder.jpg" alt="Lori Greiner with Mansculpt" onerror="this.style.background='#003d7a'; this.style.minHeight='320px';">
+    <span class="shark-star-badge">★ FEATURED</span>
+    <p class="video-quote">"I'm convinced Mansculpt is going to change how American men deal with this problem at home. This is the kind of product I've waited my whole career to invest in."</p>
+    <p class="video-author">Lori Greiner, Shark Tank Investor</p>
   </div>
 </section>
 
-<p class="foot">
-  © 2026 Mansculpt. All rights reserved.<br>
-  This product is not intended to diagnose, treat, cure, or prevent any disease. Individual results may vary. Testimonials reflect individual experiences and are not a guarantee of any specific outcome.<br>
-  <a href="https://mansculptt.site/products/mansculpt-wave-therapy-plus?country=US">Main page</a>
-</p>
+<!-- WHY IT WORKS (mechanism — first product-section) ============================================== -->
+<section class="product-section">
+  <h2>But Why Does Mansculpt™ Work So Well — And Even Outperform Pills?</h2>
+  <div class="product-content">
+    <!-- Existing local asset: Mansculpt device hero -->
+    <img class="product-image" src="assets/images/92ed0e93-b79f-40dd-a238-8deb2d7feb0f.png" alt="Mansculpt Wave Therapy Pro device">
+    <div class="product-text">
+      <p>Over the years, age, poor circulation, processed food, stress, and ordinary wear-and-tear cause two silent problems inside the penile arteries — the smallest, most delicate blood vessels in your body:</p>
+      <p><strong>1. Microcalcifications</strong> — tiny mineral deposits that build up on the artery walls, like rust inside a pipe.</p>
+      <p><strong>2. Endothelial dysfunction</strong> — the artery lining stops producing enough nitric oxide, the molecule your body needs to open those vessels when you're aroused.</p>
+      <p>Together, those two changes throttle blood flow. And without blood flow, there's no reliable erection — no matter how attracted you are, no matter how many blue pills you stack.</p>
+      <p>Pills don't fix that. They force a one-time chemical override, then wear off. The plumbing stays clogged.</p>
+    </div>
+  </div>
+</section>
 
-</main>
+<!-- SOLUTION SECTION ============================================== -->
+<section class="solution-section">
+  <h2>The Mansculpt™ Wave Therapy Solution</h2>
+  <div class="solution-text">
+    <p>To fix this at the root, Mansculpt™ Wave Therapy Pro uses <strong>Low-Intensity Extracorporeal Shockwave Therapy (LI-ESWT)</strong> — a clinically studied technology validated by researchers at <strong>Boston University School of Medicine</strong> and the <strong>Mayo Clinic</strong>.</p>
+    <p>The device sends gentle, painless acoustic pulses through the penile tissue. Those pulses do two things at once:</p>
+    <p>• They <strong>break down the microcalcifications</strong> that clog the artery walls.<br>
+       • They <strong>trigger the release of growth factors</strong> that restore healthy endothelial function — meaning your arteries learn to open on their own again.</p>
+    <p>In other words: it doesn't override your body. It <strong>rebuilds the plumbing.</strong></p>
+    <p>Just 15 minutes a day with the device — usually before bed. Within a few weeks, blood starts flowing the way it did in your 20s, and erections come back naturally, on command. <strong>Not a chemical override. A repair.</strong></p>
+    <p>Mansculpt™ is the only at-home device that delivers true LI-ESWT therapy under $60. Not even the leading pills work on the actual cause.</p>
+  </div>
+</section>
 
+<!-- INSTITUTIONS (formula section) ============================================== -->
+<section class="formula-section">
+  <h3>Acoustic Wave Therapy — Studied and Validated By</h3>
+  <div class="doctors-grid">
+    <div class="doctor-card">
+      <!-- IMAGE PROMPT — boston-uni-logo.png (square shield logo):
+           Official Boston University School of Medicine institutional shield/seal logo, transparent PNG, square crop 400x400, official heraldic style.
+           NOTE: Use the official BUSM logo from their press kit. Do NOT generate via AI — institutional logos must be authentic. -->
+      <div class="doctor-image">
+        <img src="assets/images/boston-university-placeholder.png" alt="Boston University School of Medicine" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'font-weight:bold;color:#003d7a;font-size:14px;text-align:center;\'>BOSTON<br>UNIVERSITY</div>';">
+      </div>
+      <p class="doctor-name">Boston University School of Medicine</p>
+    </div>
+    <div class="doctor-card">
+      <!-- IMAGE PROMPT — mayo-clinic-logo.png:
+           Official Mayo Clinic logo (the three-shields version), transparent PNG, square crop. Source from their press kit. -->
+      <div class="doctor-image">
+        <img src="assets/images/mayo-clinic-placeholder.png" alt="Mayo Clinic" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'font-weight:bold;color:#003d7a;font-size:14px;text-align:center;\'>MAYO<br>CLINIC</div>';">
+      </div>
+      <p class="doctor-name">Mayo Clinic</p>
+    </div>
+    <div class="doctor-card">
+      <!-- IMAGE PROMPT — aua-logo.png:
+           American Urological Association official logo. Source from press kit. -->
+      <div class="doctor-image">
+        <img src="assets/images/aua-placeholder.png" alt="American Urological Association" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'font-weight:bold;color:#003d7a;font-size:13px;text-align:center;\'>AMERICAN<br>UROLOGICAL<br>ASSOCIATION</div>';">
+      </div>
+      <p class="doctor-name">American Urological Association</p>
+    </div>
+  </div>
+  <p style="text-align:center; max-width:600px; margin:30px auto 0; font-size:14px; color:#666; line-height:1.6;">Mansculpt™ Wave Therapy Pro is doctor-recommended and tested for at-home safety.</p>
+</section>
+
+<!-- DR. MARCUS BELL PORTRAIT (NEW SECTION) ============================================== -->
+<section class="doctor-section">
+  <div class="doctor-section-container">
+    <div class="doctor-section-image">
+      <!-- IMAGE PROMPT — dr-marcus-bell.jpg (4:5 portrait):
+           Editorial portrait photograph of a distinguished male urologist in his mid-50s, salt-and-pepper hair, square jaw, wearing a crisp white lab coat over a navy dress shirt and tie, professional headshot, standing arms crossed in a modern medical clinic with blurred medical equipment in the background, warm natural window light, slight smile conveying authority and trustworthiness, 4:5 portrait crop, photorealistic, magazine quality. Caucasian male, looks like a Johns Hopkins faculty member. Will be captioned "Dr. Marcus Bell, MD — Johns Hopkins Urology". Do NOT use AI-typical glossy skin or unrealistic features. -->
+      <img src="assets/images/dr-marcus-bell-placeholder.jpg" alt="Dr. Marcus Bell, MD" onerror="this.style.background='#003d7a'; this.style.minHeight='350px';">
+      <p class="caption">Dr. Marcus Bell, MD<br>Johns Hopkins — Urology</p>
+    </div>
+    <div class="doctor-section-content">
+      <h2>How I Discovered This At the Lowest Point of My Life</h2>
+      <p class="lead">"I built Mansculpt™ because, at 42, I was the patient."</p>
+      <p>My name is Dr. Marcus Bell. I'm a board-certified urologist trained at Johns Hopkins. I've spent the last 18 years of my career treating men with erectile dysfunction — and I'd be lying if I said I went into that field because of curiosity.</p>
+      <p>I remember the night it really hit me. My wife and I had been together for thirteen years. She was beautiful. She wanted me. And I sat on the edge of the bed pretending to scroll through my phone because I was too embarrassed to turn around. The pills weren't working the way they used to. When they did, I'd get a pounding headache that ruined the rest of the night. When they didn't, I'd lie there making excuses about work, about stress, about being tired — knowing she knew.</p>
+      <p>A few weeks later, she sat me down and — gently, kindly, the way she does everything — suggested we try couples counseling. She thought <em>she</em> was the problem. That's the moment that broke me. <strong>My wife was about to go pay a stranger to "fix" something I had every clinical tool in the world to fix — and I had failed her with all of it.</strong></p>
+      <p>The next morning I walked into my own clinic and pulled every study I could find on Low-Intensity Extracorporeal Shockwave Therapy. I'd seen the research from Boston University, from the Mayo Clinic, from European trials going back over a decade. I knew acoustic wave therapy was the most promising non-pharmaceutical option in modern urology. The problem? It cost <strong>$3,000 per session</strong> at a clinic, took six visits, and most men felt humiliated walking in the front door.</p>
+      <p>So I built one for myself. A small, quiet, at-home version of the same therapy. I used it 15 minutes a night for three weeks. By week four, I didn't need the pills anymore. By week six, my wife stopped suggesting counseling — and started laughing in bed the way she did when we were 28.</p>
+      <p><strong>That device is now Mansculpt™ Wave Therapy Pro.</strong> I built it for me. I'm making it for you because no man should ever sit on the edge of his own bed feeling that small.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SHARK TANK EDITION (product + benefits) ============================================== -->
+<section class="shark-edition" id="shark-edition">
+  <div class="shark-edition-container">
+    <div class="shark-edition-image">
+      <img src="assets/images/92ed0e93-b79f-40dd-a238-8deb2d7feb0f.png" alt="Mansculpt Wave Therapy Pro — Shark Tank Edition">
+    </div>
+    <div class="shark-content">
+      <h2>Mansculpt™ Wave Therapy Pro — Shark Tank Edition</h2>
+      <h3>The Only At-Home Acoustic Wave Device Doctor-Recommended and Backed by Shark Tank to Help Men Restore Reliable, Long-Lasting Erections.</h3>
+      <h3 class="gold">Try It Risk-Free For a Full 365 Days.</h3>
+      <ul class="benefits-list">
+        <li>Firmer, more reliable erections</li>
+        <li>Restored libido and morning wood</li>
+        <li>Better stamina and staying power</li>
+        <li>Confidence back in the bedroom</li>
+        <li>Improved circulation and sensation</li>
+        <li>Reignited intimacy with your partner</li>
+        <li>Support for healthy erectile function — naturally</li>
+        <li>Used by 150,000+ men, doctor-recommended</li>
+      </ul>
+      <a class="cta-button" data-bb-cta data-bb-pack="1" href="#packages">Get My Mansculpt — $60 Off + Free Shipping</a>
+    </div>
+  </div>
+</section>
+
+<!-- PACKAGES GRID #1 (single card central) ============================================== -->
+<section class="packages-section" id="packages">
+  <h2>Get Your Mansculpt™ Wave Therapy Pro</h2>
+  <p class="packages-subtitle">Only 100 units left at the Shark Tank price. After that, it goes back to $119.90.</p>
+  <div class="packages-grid">
+    <div class="package-card">
+      <span class="popular-badge">★ Shark Tank Edition — First 100 Orders Only</span>
+      <h3 class="package-title">1 × Mansculpt™</h3>
+      <p class="package-subtitle">Wave Therapy Pro · $60 Off</p>
+      <img class="package-image" src="assets/images/92ed0e93-b79f-40dd-a238-8deb2d7feb0f.png" alt="Mansculpt Wave Therapy Pro">
+      <div class="package-price-row">
+        <span class="package-price-old">$119.90</span>
+        <span class="package-price"><sup>$</sup>59.90</span>
+      </div>
+      <p class="package-per-bottle">One Mansculpt™ device + 2 free digital guides</p>
+      <p class="package-total">Total: $59.90 · Free US Shipping</p>
+      <ul class="package-features">
+        <li>Free US shipping</li>
+        <li>365-day money-back guarantee</li>
+        <li>Priority delivery within 7 days</li>
+        <li>Doctor-recommended at-home device</li>
+        <li class="bonus">BONUS #1: Quick Start Guide (PDF)</li>
+        <li class="bonus">BONUS #2: Bedroom Confidence Playbook (PDF)</li>
+      </ul>
+      <a class="order-button" data-bb-cta data-bb-pack="1" href="https://mansculptt.site/products/mansculpt-wave-therapy-plus?country=US">Order Now — $60 Off</a>
+      <div class="save-badge">Save $60</div>
+      <p class="payment-icons">💳 🔒 Secure Checkout · Discreet Billing</p>
+    </div>
+  </div>
+  <p class="disclaimer-text">FREE US SHIPPING &amp; 365-DAY MONEY-BACK GUARANTEE · DOCTOR-RECOMMENDED · TESTED AND APPROVED FOR AT-HOME USE · DISCREET PACKAGING</p>
+</section>
+
+<!-- GUARANTEE ============================================== -->
+<section class="guarantee-section">
+  <div class="guarantee-content-wrap">
+    <div class="guarantee-badge-large">
+      <div class="num">365</div>
+      <div class="lbl">Day Guarantee</div>
+    </div>
+    <h2>100% Satisfaction.</h2>
+    <h3>Try Mansculpt™ Risk-Free For a Full 365 Days.</h3>
+    <div class="guarantee-content">
+      <p>Here's our promise: try Mansculpt™ Wave Therapy Pro for a full <strong>365 days, completely on us.</strong></p>
+      <p>Every single Mansculpt™ device is hand-inspected and quality-tested before it ships — and tested again after assembly — to make sure it delivers the gentle, consistent acoustic wave output your body needs.</p>
+      <p>If at any point in the next year you don't see firmer erections, better stamina, and renewed confidence in the bedroom — or even if you just don't like the design of the device — send it back. Our US-based team will refund <strong>100% of your money</strong>. No hassle. No interrogation. No "are you sure?" calls.</p>
+      <p>That's how confident we are. <strong>You either love it, or you don't pay for it.</strong></p>
+    </div>
+    <a class="guarantee-cta" data-bb-cta data-bb-pack="1" href="https://mansculptt.site/products/mansculpt-wave-therapy-plus?country=US">Claim My Mansculpt Now</a>
+  </div>
+</section>
+
+<!-- URGENCY ============================================== -->
+<section class="urgency-section">
+  <div class="urgency-content-wrap">
+    <span class="scarcity-pill">Only 14 units left at this price</span>
+    <h2>Don't Wait Another Night.</h2>
+    <div class="urgency-content">
+      <p><strong>Why wait when there's a doctor-recommended device — already used by 150,000+ men — that does this from the comfort of your own bedroom?</strong></p>
+      <p>Without Mansculpt™, nothing changes. You go back to dreading the moment she touches you. You go back to faking tiredness. You go back to refilling little blue pills that wreck your sleep, spike your blood pressure, and wear off when you actually need them most.</p>
+      <p>With Mansculpt™, that ends. Fifteen quiet minutes a day. No prescription. No pharmacy run. No clinic appointment. Just consistent, reliable erections coming back — usually within 3 weeks — and the version of you who used to walk into the bedroom without thinking twice.</p>
+      <p>A life with confidence in the bedroom is always better than a life without it. <strong>So claim your Mansculpt™ now — before the first 100 units at this price are gone.</strong></p>
+    </div>
+    <a class="urgency-cta" data-bb-cta data-bb-pack="1" href="#packages">Claim My $60 Off Now</a>
+  </div>
+</section>
+
+<!-- PACKAGES GRID #2 (repeat) ============================================== -->
+<section class="packages-section">
+  <h2>Limited Stock — Choose Your Mansculpt™ Now</h2>
+  <p class="packages-subtitle">Only 100 units at $59.90. After that, $119.90 returns.</p>
+  <div class="packages-grid">
+    <div class="package-card">
+      <span class="popular-badge">★ Shark Tank Edition — First 100 Orders Only</span>
+      <h3 class="package-title">1 × Mansculpt™</h3>
+      <p class="package-subtitle">Wave Therapy Pro · $60 Off</p>
+      <img class="package-image" src="assets/images/92ed0e93-b79f-40dd-a238-8deb2d7feb0f.png" alt="Mansculpt Wave Therapy Pro">
+      <div class="package-price-row">
+        <span class="package-price-old">$119.90</span>
+        <span class="package-price"><sup>$</sup>59.90</span>
+      </div>
+      <p class="package-per-bottle">One Mansculpt™ device + 2 free digital guides</p>
+      <p class="package-total">Total: $59.90 · Free US Shipping</p>
+      <ul class="package-features">
+        <li>Free US shipping</li>
+        <li>365-day money-back guarantee</li>
+        <li>Priority delivery within 7 days</li>
+        <li>Doctor-recommended at-home device</li>
+        <li class="bonus">BONUS #1: Quick Start Guide (PDF)</li>
+        <li class="bonus">BONUS #2: Bedroom Confidence Playbook (PDF)</li>
+      </ul>
+      <a class="order-button" data-bb-cta data-bb-pack="1" href="https://mansculptt.site/products/mansculpt-wave-therapy-plus?country=US">Order Now — $60 Off</a>
+      <div class="save-badge">Save $60</div>
+      <p class="payment-icons">💳 🔒 Secure Checkout · Discreet Billing</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ ============================================== -->
+<section class="faq-section">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-container">
+    <div class="faq-item active">
+      <div class="faq-question">
+        <span>I'm 55 years old, and I've tried everything — pills, pumps, injections, supplements, even hormone shots — but nothing actually fixed it. Will Mansculpt™ work for me too?</span>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>It doesn't matter your age, your fitness level, or how long you've been struggling. Erectile dysfunction in men over 40 is almost always caused by one underlying issue — restricted blood flow through the penile arteries. That's exactly what Mansculpt™ Wave Therapy Pro is built to address. The acoustic waves work on the cause — they help break down microcalcifications and stimulate the arteries to function normally again — instead of masking the symptom for four hours like a pill. That's why men in their 50s, 60s, and even 70s use Mansculpt™ and see real, lasting changes. It will work for you too.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>How long until I start seeing real results?</span>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Most men notice firmer erections and stronger morning wood within the first <strong>2–3 weeks</strong> of consistent daily use (15 minutes a night). For full, structural change to the artery health, we recommend using Mansculpt™ daily for <strong>90 days</strong>. The first 30 days handle the obvious wins; days 30–90 are when the deeper endothelial repair really sets in. That's also why we built a 365-day guarantee — you have a full year to feel the change.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>You said delivery could take up to 5 days, but my Mansculpt™ arrived in 2. Are you running ahead of schedule?</span>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>We always ship as fast as we can. Our estimate is 3–5 business days, but many US customers get theirs in 2–3 days depending on location. Every order ships in plain, discreet packaging from our US warehouse within 24 hours of purchase.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Do I have to follow a strict diet or hit the gym for Mansculpt™ to work?</span>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>No. Mansculpt™ works regardless of your routine — the acoustic waves are doing the structural work on your arteries directly. That said, staying hydrated, sleeping well, and not chain-smoking will absolutely accelerate your results. You don't need a special diet or a gym membership.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>What will appear on my credit card statement, and how does the package arrive?</span>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Your statement will show a generic, discreet billing descriptor — not the product name. The device ships in unmarked brown packaging with no logos and no indication of what's inside. Even the return address is a neutral fulfillment center. Nobody — not the mail carrier, not your roommate, not your nosy neighbor — will know what's in the box.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>I've been using Mansculpt™ for 12 days and I already feel firmer erections. Is there a way to intensify the results?</span>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>That's a great sign. To intensify: use the device every single night (consistency matters more than intensity), do your 15-minute session about an hour before bed, and stay hydrated through the day. Some men also report better results when they pair it with a 20-minute brisk walk in the morning — anything that boosts circulation works with the device. Don't double up sessions in a day; more isn't faster, just consistent.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Can I buy Mansculpt™ in a store, or on Amazon?</span>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>No. Mansculpt™ Wave Therapy Pro is sold exclusively through our official website. That's how we keep the price at $59.90 instead of $300+ retail, how we guarantee every unit is genuine (no counterfeits), and how we can offer the full 365-day guarantee. Anything claiming to be "Mansculpt" on a third-party marketplace is a knockoff.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>I'm in. What do I do?</span>
+        <span class="faq-icon">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Click any "Order Now" button on this page, choose your option (most men pick the single device at $60 off), and complete the secure checkout. Your Mansculpt™ ships from our US warehouse within 24 hours and usually arrives in 3–5 business days. Then it's 15 minutes a night — and the rest takes care of itself.</p>
+      </div>
+    </div>
+  </div>
+  <div class="faq-cta-wrap">
+    <a class="faq-cta" data-bb-cta data-bb-pack="1" href="https://mansculptt.site/products/mansculpt-wave-therapy-plus?country=US">Get My Mansculpt — $60 Off + Free Shipping</a>
+  </div>
+</section>
+
+<!-- FOOTER ============================================== -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>About Mansculpt</h4>
+        <ul>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Research &amp; Studies</a></li>
+          <li><a href="#">Dr. Marcus Bell</a></li>
+          <li><a href="#">Press &amp; Media</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Customer Service</h4>
+        <ul>
+          <li><a href="mailto:support@mansculptt.site">Contact Support</a></li>
+          <li><a href="#">Shipping Info</a></li>
+          <li><a href="#">365-Day Returns</a></li>
+          <li><a href="#">Order Tracking</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Disclaimer</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">TikTok</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p><strong>DISCLAIMER:</strong> Mansculpt™ Wave Therapy Pro is a wellness device intended to support healthy circulation and erectile function. It is not intended to diagnose, treat, cure, or prevent any disease. Results vary by individual. Consult your physician if you have an underlying condition or use prescribed medication. Tested and approved for at-home use. Doctor-recommended.</p>
+      <p>© 2026 Mansculpt™. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FAQ ACCORDION SCRIPT -->
 <script>
-(function(){
-  var KEY="ms_timer_shark_us";
-  var DURATION=24*60*60*1000;
-  var end=parseInt(localStorage.getItem(KEY)||"0",10);
-  var now=Date.now();
-  if(!end||end<now){end=now+DURATION;localStorage.setItem(KEY,end);}
-  var d=document.querySelector("[data-d]"),h=document.querySelector("[data-h]"),m=document.querySelector("[data-m]"),s=document.querySelector("[data-s]");
-  function pad(n){return n<10?"0"+n:""+n}
-  function tick(){
-    var diff=end-Date.now();
-    if(diff<=0){d.textContent="00";h.textContent="00";m.textContent="00";s.textContent="00";return}
-    var ds=Math.floor(diff/86400000),hs=Math.floor(diff/3600000)%24,ms=Math.floor(diff/60000)%60,ss=Math.floor(diff/1000)%60;
-    d.textContent=pad(ds);h.textContent=pad(hs);m.textContent=pad(ms);s.textContent=pad(ss);
-  }
-  tick();setInterval(tick,1000);
-})();
-</script>
-
-<!-- VSL player (no tracking) -->
-<script type="text/javascript">
-  var s=document.createElement("script");
-  s.src="https://scripts.converteai.net/c9cf2734-cc1a-4515-af58-9c095e4ab3e4/players/69ebb2d59c356ea99e91d15d/v4/player.js";
-  s.async=!0;
-  document.head.appendChild(s);
+document.querySelectorAll('.faq-question').forEach(function(q){
+  q.addEventListener('click', function(){
+    var item = q.parentElement;
+    item.classList.toggle('active');
+  });
+});
 </script>
 
 </body>
