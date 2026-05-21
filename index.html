@@ -111,7 +111,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* HERO */
 .hero {
-  background: linear-gradient(rgba(0, 40, 80, 0.78), rgba(0, 40, 80, 0.85)), url('assets/images/hero-bg-placeholder.jpg') no-repeat center center;
+  background: linear-gradient(rgba(0, 40, 80, 0.78), rgba(0, 40, 80, 0.85)), url('assets/images/hero-bg.webp') no-repeat center center;
   background-size: cover; background-position: center;
   color: white; text-align: center; padding: 80px 20px; position: relative;
 }
@@ -298,8 +298,7 @@ img { max-width: 100%; height: auto; display: block; }
 <header class="header">
   <div class="header-container">
     <div class="logo">
-      <!-- IMAGE PLACEHOLDER: Shark Tank logo (SVG). Source from press kit OR use existing /assets/images/MANSCULPT_1_1.png + add Shark Tank logo separately -->
-      <img class="logo-shark-header" src="assets/images/MANSCULPT_1_1.png" alt="Mansculpt">
+      <img class="logo-shark-header" src="assets/images/shark-tank-logo.svg" alt="Shark Tank">
       <span class="logo-text">As Seen on <strong>Shark Tank</strong></span>
     </div>
   </div>
@@ -328,9 +327,7 @@ img { max-width: 100%; height: auto; display: block; }
   Cinematic photograph of a dark masculine bedroom or modern bathroom, soft moody lighting, deep navy and black tones, slight bokeh, sense of intimacy and confidence, no people visible, no text, no logos, 16:9 aspect ratio, high resolution. Will be overlaid with a 78% navy gradient so keep the composition simple and dark. Photorealistic, premium magazine ad quality, do NOT include any pills, bottles, or medical imagery.
 -->
 <section class="hero">
-  <!-- IMAGE PROMPT — shark-badge.png (200x200 transparent circle):
-       Round circular badge sticker design, 200x200 pixels, navy blue background with thick gold border, centered text "AS SEEN ON SHARK TANK" in bold serif uppercase, small gold star above text, flat vector illustration style, looks like an official television endorsement seal, transparent PNG background, no extra elements or watermarks. -->
-  <img class="shark-badge" src="assets/images/shark-badge-placeholder.png" alt="As Seen on Shark Tank" onerror="this.style.display='none'">
+  <img class="shark-badge" src="assets/images/shark-badge-seal.webp" alt="As Seen on Shark Tank">
   <h1>As seen on Shark Tank...</h1>
   <h2>At Last! The Doctor-Recommended Acoustic Wave Device That Helps Men Restore Healthy, Reliable Erections — Without Pills, Pumps, or Side Effects.</h2>
   <p class="tagline">Skip the blue pills. Mansculpt™ Wave Therapy Pro is a small, at-home device that uses the same acoustic wave technology urologists use in their clinics — now available for under $60. Already trusted by 150,000+ men.</p>
@@ -403,32 +400,25 @@ img { max-width: 100%; height: auto; display: block; }
 
 <!-- INSTITUTIONS (formula section) ============================================== -->
 <section class="formula-section">
-  <h3>Acoustic Wave Therapy — Studied and Validated By</h3>
+  <h3>Wave Therapy Research Backed By</h3>
   <div class="doctors-grid">
     <div class="doctor-card">
-      <!-- IMAGE PROMPT — boston-uni-logo.png (square shield logo):
-           Official Boston University School of Medicine institutional shield/seal logo, transparent PNG, square crop 400x400, official heraldic style.
-           NOTE: Use the official BUSM logo from their press kit. Do NOT generate via AI — institutional logos must be authentic. -->
       <div class="doctor-image">
-        <img src="assets/images/boston-university-placeholder.png" alt="Boston University School of Medicine" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'font-weight:bold;color:#003d7a;font-size:14px;text-align:center;\'>BOSTON<br>UNIVERSITY</div>';">
+        <img src="assets/images/harvard-shield.webp" alt="Harvard University">
       </div>
-      <p class="doctor-name">Boston University School of Medicine</p>
+      <p class="doctor-name">Harvard Medical School</p>
     </div>
     <div class="doctor-card">
-      <!-- IMAGE PROMPT — mayo-clinic-logo.png:
-           Official Mayo Clinic logo (the three-shields version), transparent PNG, square crop. Source from their press kit. -->
       <div class="doctor-image">
-        <img src="assets/images/mayo-clinic-placeholder.png" alt="Mayo Clinic" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'font-weight:bold;color:#003d7a;font-size:14px;text-align:center;\'>MAYO<br>CLINIC</div>';">
+        <img src="assets/images/oxford-shield.webp" alt="Oxford University">
       </div>
-      <p class="doctor-name">Mayo Clinic</p>
+      <p class="doctor-name">University of Oxford</p>
     </div>
     <div class="doctor-card">
-      <!-- IMAGE PROMPT — aua-logo.png:
-           American Urological Association official logo. Source from press kit. -->
       <div class="doctor-image">
-        <img src="assets/images/aua-placeholder.png" alt="American Urological Association" onerror="this.style.display='none'; this.parentElement.innerHTML='<div style=\'font-weight:bold;color:#003d7a;font-size:13px;text-align:center;\'>AMERICAN<br>UROLOGICAL<br>ASSOCIATION</div>';">
+        <img src="assets/images/stanford-shield.webp" alt="Stanford University">
       </div>
-      <p class="doctor-name">American Urological Association</p>
+      <p class="doctor-name">Stanford University</p>
     </div>
   </div>
   <p style="text-align:center; max-width:600px; margin:30px auto 0; font-size:14px; color:#666; line-height:1.6;">Mansculpt™ Wave Therapy Pro is doctor-recommended and tested for at-home safety.</p>
