@@ -92,8 +92,18 @@ fbq('track','PageView');
 
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; }
 img { max-width: 100%; height: auto; display: block; }
+
+/* STEP INDICATORS (Part 1/2/3 of 3) — adapted from mansculpt-advertorial-de-3 pattern */
+.stage-tag { display: inline-block; background: #003d7a; color: #fff; padding: 6px 14px; border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; margin: 0 0 18px; }
+
+/* SOFT CTA (scrolls to next stage; not a buy button) */
+.cta-soft-wrap { display: flex; justify-content: center; margin: 36px 0 8px; }
+.btn-soft { display: inline-flex; align-items: center; justify-content: center; gap: 10px; background: #f4a460; color: #fff; padding: 16px 32px; font-size: 15px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; border-radius: 999px; text-decoration: none; box-shadow: 0 4px 14px rgba(244,164,96,.35); transition: all .25s; }
+.btn-soft:hover { background: #e67e22; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(244,164,96,.5); }
+.btn-soft .ico { font-size: 20px; }
 
 /* HEADER */
 .header { background-color: #003d7a; color: white; padding: 20px 20px 10px; }
@@ -310,23 +320,17 @@ img { max-width: 100%; height: auto; display: block; }
     <span class="info-item">📦 DISCREET PACKAGING</span>
     <span class="info-item">🚚 FREE US SHIPPING</span>
     <span class="info-item">⏱️ 3-5 BUSINESS DAYS</span>
-    <span class="info-item">🛡️ 365-DAY GUARANTEE</span>
     <span class="info-item">🔒 SECURE CHECKOUT</span>
     <!-- duplicate for seamless loop -->
     <span class="info-item">📦 DISCREET PACKAGING</span>
     <span class="info-item">🚚 FREE US SHIPPING</span>
     <span class="info-item">⏱️ 3-5 BUSINESS DAYS</span>
-    <span class="info-item">🛡️ 365-DAY GUARANTEE</span>
     <span class="info-item">🔒 SECURE CHECKOUT</span>
   </div>
 </div>
 
-<!-- HERO ============================================== -->
-<!--
-  IMAGE PROMPT — hero-bg-placeholder.jpg (16:9 cinematic):
-  Cinematic photograph of a dark masculine bedroom or modern bathroom, soft moody lighting, deep navy and black tones, slight bokeh, sense of intimacy and confidence, no people visible, no text, no logos, 16:9 aspect ratio, high resolution. Will be overlaid with a 78% navy gradient so keep the composition simple and dark. Photorealistic, premium magazine ad quality, do NOT include any pills, bottles, or medical imagery.
--->
-<section class="hero">
+<!-- ===================== STAGE 1: HERO + WHY LORI + MECHANISM ===================== -->
+<section class="hero" id="etapa-1">
   <img class="shark-badge" src="assets/images/shark-badge-seal.webp" alt="As Seen on Shark Tank">
   <h1>As seen on Shark Tank...</h1>
   <h2>At Last! The Doctor-Recommended Acoustic Wave Device That Helps Men Restore Healthy, Reliable Erections — Without Pills, Pumps, or Side Effects.</h2>
@@ -335,7 +339,6 @@ img { max-width: 100%; height: auto; display: block; }
     <p class="testimonial-text">"This is one of the most brilliant products I've seen in my entire career on this show."</p>
     <p class="testimonial-author">— Lori Greiner, Shark Tank Investor</p>
   </div>
-  <a class="cta-button" data-bb-cta data-bb-pack="1" href="https://mansculptt.site/products/mansculpt-wave-therapy-plus?country=US">Get My Mansculpt — $60 Off + Free Shipping</a>
 </section>
 
 <!-- WHY LORI INVESTED (content section) ============================================== -->
@@ -382,10 +385,16 @@ img { max-width: 100%; height: auto; display: block; }
       <p>Pills don't fix that. They force a one-time chemical override, then wear off. The plumbing stays clogged.</p>
     </div>
   </div>
+  <div class="cta-soft-wrap">
+    <a class="btn-soft" href="#etapa-2">
+      <span class="ico" aria-hidden="true">↓</span>
+      Continue Reading
+    </a>
+  </div>
 </section>
 
-<!-- SOLUTION SECTION ============================================== -->
-<section class="solution-section">
+<!-- ===================== STAGE 2: SOLUTION + INSTITUTIONS + DR. BELL ===================== -->
+<section class="solution-section" id="etapa-2">
   <h2>The Mansculpt™ Wave Therapy Solution</h2>
   <div class="solution-text">
     <p>To fix this at the root, Mansculpt™ Wave Therapy Pro uses <strong>Low-Intensity Extracorporeal Shockwave Therapy (LI-ESWT)</strong> — a clinically studied technology validated by researchers at <strong>Boston University School of Medicine</strong> and the <strong>Mayo Clinic</strong>.</p>
@@ -444,10 +453,16 @@ img { max-width: 100%; height: auto; display: block; }
       <p><strong>That device is now Mansculpt™ Wave Therapy Pro.</strong> I built it for me. I'm making it for you because no man should ever sit on the edge of his own bed feeling that small.</p>
     </div>
   </div>
+  <div class="cta-soft-wrap">
+    <a class="btn-soft" href="#etapa-3">
+      <span class="ico" aria-hidden="true">↓</span>
+      See the Offer
+    </a>
+  </div>
 </section>
 
-<!-- SHARK TANK EDITION (product + benefits) ============================================== -->
-<section class="shark-edition" id="shark-edition">
+<!-- ===================== STAGE 3: SHARK TANK EDITION + PACKAGES + OFFER ===================== -->
+<section class="shark-edition" id="etapa-3">
   <div class="shark-edition-container">
     <div class="shark-edition-image">
       <img src="assets/images/92ed0e93-b79f-40dd-a238-8deb2d7feb0f.png" alt="Mansculpt Wave Therapy Pro — Shark Tank Edition">
